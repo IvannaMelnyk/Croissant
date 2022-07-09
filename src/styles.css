@@ -9,11 +9,13 @@
 :root {
   --primary-color: #e4af1d;
   --secondary-color: #f5e5b9;
+  --hover-color: #ce7005;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
   margin: 60px auto;
   max-width: 800px;
+  background-color: var(--secondary-color);
 }
 h1 {
   box-shadow: var(--box-shadow);
@@ -62,7 +64,7 @@ p {
   font-size: 18px;
 }
 a:hover {
-  color: var(--secondary-color);
+  color: var(--hover-color);
   text-decoration: underline;
 }
 .contacts-link {
