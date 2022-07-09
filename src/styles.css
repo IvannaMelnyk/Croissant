@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+:root {
+  --primary-color: #e4af1d;
+  --secondary-color: #f5e5b9;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+h1 {
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  color: var(--primary-color);
+  text-shadow: 2px 2px 4px #000000;
+}
+a {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  margin: auto 5px;
+  text-decoration: none;
+}
+img {
+  display: flex;
+  margin: auto;
+}
+p {
+  margin-top: 20px;
+}
+.croissant-photo {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
+  box-shadow: var(--box-shadow);
+}
+.text {
+  text-align: center;
+  margin: auto;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+
+  cursor: pointer;
+  text-decoration: none;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-evenly;
+  font-size: 18px;
+}
+a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+.contacts-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
